@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculatrice Simple en JS</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./reset.css" />
+    </head>
+    <body>
+        <main class="calculatrice-container">
+            <form id="formCalculatrice">
+                <input
+                    type="number"
+                    id="premierNombre"
+                    placeholder="Entrez le 1er nombre"
+                />
+                <input
+                    type="number"
+                    id="deuxiemeNombre"
+                    placeholder="Entrez le 2e nombre"
+                />
+                <select id="choixOperation">
+                    <option value="addition">+</option>
+                    <option value="soustraction">-</option>
+                    <option value="multiplication">*</option>
+                    <option value="division">/</option>
+                </select>
+                <button type="submit">Exécuter</button>
+                <button type="button" onclick="reinitialiserCalculatrice()">
+                    Effacer
+                </button>
+            </form>
+
+            <div id="affichageResultat"></div>
+            <div class="affichageErreur"></div>
+        </main>
+    </body>
+</html>

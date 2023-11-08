@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+#formCalculatrice {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+#formCalculatrice input,
+#formCalculatrice select,
+#formCalculatrice button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#formCalculatrice button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+#formCalculatrice button:hover {
+    background-color: #0056b3;
+}
+
+#affichageResultat,
+.affichageErreur {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+#affichageResultat {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.affichageErreur {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
